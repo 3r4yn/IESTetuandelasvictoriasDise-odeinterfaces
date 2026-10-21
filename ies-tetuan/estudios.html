@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudios y módulos | IES Tetuán de las Victorias</title>
+
+  <!-- Favicon personalizado con el libro y cerebro -->
+  <link rel="icon" href="img/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Cabecera común -->
+  <header class="cabecera">
+    <div class="contenedor">
+      <a href="index.html" class="marca">
+        <img src="img/icon-192.png" alt="Icono del sitio: libro abierto con red de ideas">
+        <span class="marca__texto">
+          <strong>Centro especializado en Formación Profesional</strong>
+          <span>IES Tetuán de las Victorias</span>
+        </span>
+      </a>
+
+      <nav class="nav-principal" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="centro.html">El centro</a></li>
+          <li><a href="estudios.html" aria-current="page">Estudios y módulos</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-movil" aria-label="Abrir menú de navegación">☰ </button>
+    </div>
+  </header>
+
+  <main>
+    <div class="contenedor">
+      <!-- Navegación secundaria  -->
+      <nav class="navegacionsecundaria" aria-label="Ruta de navegación">
+      </nav>
+
+      <section class="primeraseccion-pagina">
+        <h1>Lo que aprendes lo puedes crear.</h1>
+        <p>En la Formación Profesional, la teoría cobra sentido cuando se transforma en proyectos reales. Aquí verás los módulos esenciales que he cursado y cómo cada uno aporta las herramientas necesarias para maquetar, programar y construir aplicaciones web completas.</p>
+      </section>
+    </div>
+
+    <!-- Aprendizaje con grid .. -->
+    <section class="seccion" style="padding-top:0;">
+      <div class="contenedor">
+
+        <div class="mapa-aprendizaje__cabecera">
+          <h2>Mi mapa de aprendizaje</h2>
+          <span>6 módulos · 6 proyectos de ejemplo</span>
+        </div>
+        <p class="mapa-aprendizaje__intro">Seis módulos para conectar los conocimientos con proyectos prácticos y visualizar un futuro en el desarrollo web.</p>
+
+        <div class="modulos__cuadricula">
+
+          <article class="tarjeta-modulo">
+            <div class="tarjeta-modulo__cabecera">
+              <span class="tarjeta-modulo__icono" aria-hidden="true">[]</span>
+              <span class="tarjeta-modulo__numero">01</span>
+            </div>
+            <h3>Lenguajes de marcas</h3>
+            <p class="tarjeta-modulo__etiquetas">HTML · CSS · XML</p>
+            <p><strong>Qué aprendería:</strong> crear la estructura web semántica y aplicar hojas de estilo CSS para maquetar páginas web funcionales.</p>
+            <p><strong>Para mi futuro profesional:</strong> construir la base técnica para el desarrollo y diseño de sitios web bien estructurados.</p>
+          </article>
+
+          <article class="tarjeta-modulo">
+            <div class="tarjeta-modulo__cabecera">
+              <span class="tarjeta-modulo__icono" aria-hidden="true">☁️</span>
+              <span class="tarjeta-modulo__numero">02</span>
+            </div>
+            <h3>Bases de datos</h3>
+            <p class="tarjeta-modulo__etiquetas">SQL · Modelado relacional</p>
+            <p><strong>Qué aprendería:</strong> modelar bases de datos relacionales, realizar consultas complejas con SQL y garantizar la integridad de los datos.</p>
+            <p><strong>Para mi futuro profesional:</strong> gestionar información de forma eficiente y segura para integrarla con aplicaciones web.</p>
+          </article>
+
+          <article class="tarjeta-modulo">
+            <div class="tarjeta-modulo__cabecera">
+              <span class="tarjeta-modulo__icono" aria-hidden="true">{ }</span>
+              <span class="tarjeta-modulo__numero">03</span>
+            </div>
+            <h3>Desarrollo web en entorno cliente</h3>
+            <p class="tarjeta-modulo__etiquetas">JavaScript · DOM · Fetch</p>
+            <p><strong>Qué aprendería:</strong> crear interfaces interactivas, gestionar eventos en el navegador, manipular el DOM, validar formularios y consumir APIs REST de forma asíncrona.</p>
+            <p><strong>Para mi futuro profesional:</strong> desarrollar la capa front-end dinámica de las aplicaciones web y construir interfaces fluidas e interactivas para el usuario.</p>
+          </article>
+
+          <article class="tarjeta-modulo">
+            <div class="tarjeta-modulo__cabecera">
+              <span class="tarjeta-modulo__icono" aria-hidden="true">⚙️</span>
+              <span class="tarjeta-modulo__numero">04</span>
+            </div>
+            <h3>Desarrollo web en entorno servidor</h3>
+            <p class="tarjeta-modulo__etiquetas">PHP · HTTP · API REST</p>
+            <p><strong>Qué aprendería:</strong> procesar solicitudes del cliente, gestionar sesiones de usuario, aplicar mecanismos de autenticación y conectar la lógica del servidor con bases de datos relacionales.</p>
+            <p><strong>Para mi futuro profesional:</strong> construir la arquitectura back-end de los proyectos web y garantizar la seguridad y persistencia de los datos.</p>
+          </article>
+
+          <article class="tarjeta-modulo">
+            <div class="tarjeta-modulo__cabecera">
+              <span class="tarjeta-modulo__icono" aria-hidden="true">▦</span>
+              <span class="tarjeta-modulo__numero">05</span>
+            </div>
+            <h3>Diseño de interfaces web</h3>
+            <p class="tarjeta-modulo__etiquetas">Figma · CSS · Accesibilidad</p>
+            <p><strong>Qué aprendería:</strong> diseñar prototipos interactivos en Figma, organizar contenidos utilizando Flexbox y CSS Grid, y aplicar principios de jerarquía visual, usabilidad y accesibilidad.</p>
+            <p><strong>Para mi futuro profesional:</strong> diseñar experiencias de usuario (UX/UI) atractivas y convertir prototipos visuales en código web maquetado de forma limpia y accesible.</p>
+          </article>
+
+          <article class="tarjeta-modulo">
+            <div class="tarjeta-modulo__cabecera">
+              <span class="tarjeta-modulo__icono" aria-hidden="true">☁↑</span>
+              <span class="tarjeta-modulo__numero">06</span>
+            </div>
+            <h3>Despliegue de aplicaciones web</h3>
+            <p class="tarjeta-modulo__etiquetas">Git · Linux · Servidores web</p>
+            <p><strong>Qué aprendería:</strong> gestionar repositorios con Git, configurar servidores web (Apache/Nginx), instalar certificados de seguridad HTTPS y automatizar la publicación de proyectos web.</p>
+            <p><strong>Para mi futuro profesional:</strong> administrar el entorno de producción, desplegar proyectos en la nube y garantizar la disponibilidad y rendimiento del sitio web.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <h2>Centro especializado en Formación Profesional</h2>
+      <p>IES Tetuán de las Victorias</p>
+      <p class="pie__descripcion">Una mirada estudiantil al aprendizaje, al centro y al futuro profesional.</p>
+      <hr class="pie__linea">
+      <div class="pie__contacto">
+        <span>IES Tetuán de las Victorias — C/ Vía Límite, 14, 28029 Madrid.</span>
+        <span>Tel. 91 314 67 06 / 91 314 76 50 · ies.tetuan.madrid@educa.madrid.org</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

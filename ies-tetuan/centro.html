@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El centro | IES Tetuán de las Victorias</title>
+
+  <!-- Favicon personalizado con el libro y cerebro -->
+  <link rel="icon" href="img/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Cabecera  -->
+  <header class="cabecera">
+    <div class="contenedor">
+      <a href="index.html" class="marca">
+        <img src="img/icon-192.png" alt="Icono del sitio: libro abierto con red de ideas">
+        <span class="marca__texto">
+          <strong>Centro especializado en Formación Profesional</strong>
+          <span>IES Tetuán de las Victorias</span>
+        </span>
+      </a>
+
+      <nav class="nav-principal" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="centro.html" aria-current="page">El centro</a></li>
+          <li><a href="estudios.html">Estudios y módulos</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-movil" aria-label="Abrir menú de navegación">☰ </button>
+    </div>
+  </header>
+
+  <main>
+    <div class="contenedor">
+      <!-- Navegación secundaria  -->
+      <nav class="navegacionsecundaria" aria-label="Ruta de navegación">
+      </nav>
+
+      <section class="primeraseccion-pagina">
+        <p class="etiqueta">Ubicación y acceso</p>
+        <h1>Conoce el lugar donde tu futuro empieza.</h1>
+        <p>Una guía para descubrir IES Tetuán de las Victorias: su historia, sus espacios y las preguntas que conviene resolver antes de visitarlo.</p>
+      </section>
+    </div>
+
+    <!-- Ubicación y acceso con flexbox -->
+    <section class="seccion">
+      <div class="contenedor">
+        <h2 style="margin-bottom:28px;">El primer paso: saber cómo llegar.</h2>
+
+        <div class="ubicacion__contenido">
+          <div class="ubicacion__ficha">
+            <dl class="ficha-datos">
+              <dt>Dirección</dt>
+              <dd>C/ Vía Límite, 14, Madrid 28029</dd>
+
+              <dt>Transporte y acceso</dt>
+              <dd>
+                Metro Línea 9: Estación Ventilla.<br>
+                Autobuses (EMT): líneas 42 y 147.
+              </dd>
+            </dl>
+          </div>
+
+          <div class="ubicacion__mapa">
+            <img src="img/ubicacion.png" alt="Mapa de ubicación del IES Tetuán de las Victorias" class="ubicacion__foto-mapa">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Historia del insti -->
+    <section class="seccion">
+      <div class="contenedor">
+        <div class="historia">
+          <div class="historia__titulo">
+            <p class="etiqueta">Historia del instituto</p>
+            <h2>Una historia que merece contarse.</h2>
+          </div>
+
+          <div class="historia__lista">
+            <div class="historia__item">
+              <h3>Origen</h3>
+              <p>Inaugurado en el curso 1933-34 como Escuela Oficial de Aprendizaje Industrial, nació para ofrecer formación técnica y profesional a los jóvenes de la zona, evolucionando posteriormente hasta convertirse en el IES actual.</p>
+            </div>
+            <div class="historia__item">
+              <h3>Evolución</h3>
+              <p>Con los años, el centro adaptó sus instalaciones a la Formación Profesional, incorporando familias profesionales como Informática y Comunicaciones, Administración y Gestión, y Hostelería y Turismo.</p>
+            </div>
+            <div class="historia__item">
+              <h3>Actualidad</h3>
+              <p>En la actualidad es un centro público de referencia en la zona norte de Madrid, que imparte Grados Medios y Superiores (como DAW o ASIR), enfocado en la innovación tecnológica y la empleabilidad del alumnado.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Espacios del centro -->
+     
+    <section class="seccion">
+      <div class="contenedor">
+        <h2 class="espacios__titulo">Espacios para aprender de distintas formas.</h2>
+
+        <ul class="espacios__lista">
+          <li class="tarjeta-espacio">
+            <img src="img/clase1.jpg" alt="Aulas y laboratorios de informática" class="tarjeta-espacio__foto">
+            <div class="tarjeta-espacio__texto">
+              <h3>Aulas</h3>
+              <p>Espacios equipados con proyectores, pizarras digitales y conexión a red para impartir las clases teóricas y realizar trabajos colaborativos.</p>
+            </div>
+          </li>
+
+          <li class="tarjeta-espacio">
+            <img src="img/clase2.png" alt="Laboratorios y talleres del centro" class="tarjeta-espacio__foto">
+            <div class="tarjeta-espacio__texto">
+              <h3>Laboratorios y talleres</h3>
+              <p>Aulas específicas con ordenadores para los ciclos de la familia de Informática y Comunicaciones (ASIR, DAW) y talleres equipados para la práctica técnica.</p>
+            </div>
+          </li>
+
+          <li class="tarjeta-espacio">
+            <img src="img/clase3.png" alt="Biblioteca del centro" class="tarjeta-espacio__foto">
+            <div class="tarjeta-espacio__texto">
+              <h3>Biblioteca</h3>
+              <p>Espacio destinado al estudio individual, consulta de fondos bibliográficos y zona de trabajo y lectura para el alumnado.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Información y orientación -->
+    <section class="seccion" style="padding-top:0;">
+      <div class="contenedor">
+        <h2 class="orientacion__titulo">Información y orientación</h2>
+
+        <div class="orientacion__lista">
+          <article class="tarjeta-orientacion">
+            <div class="tarjeta-orientacion__icono" aria-hidden="true">✉ </div>
+            <h3>Información y secretaría</h3>
+            <p>Gestiones de admisión, matrícula, expedición de títulos y certificados académicos. Atención presencial y consultas vía correo electrónico oficial.</p>
+            <p class="dato-contacto">Tel. 91 314 76 50 · ies.tetuan.madrid@educa.madrid.org</p>
+          </article>
+
+          <article class="tarjeta-orientacion">
+            <div class="tarjeta-orientacion__icono" aria-hidden="true">⊕ </div>
+            <h3>Orientación académica</h3>
+            <p>Asesoramiento académico y profesional para el alumnado a través del Departamento de Formación y Orientación Laboral (FOL) y orientación del centro.</p>
+            <p class="dato-contacto">Atención bajo cita previa en el centro</p>
+          </article>
+        </div>
+
+        <div class="orientacion__cta">
+          <a href="estudios.html" class="boton boton--principal">Ver estudios y módulos →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <h2>Centro especializado en Formación Profesional</h2>
+      <p>IES Tetuán de las Victorias</p>
+      <p class="pie__descripcion">Una mirada estudiantil al aprendizaje, al centro y al futuro profesional.</p>
+      <hr class="pie__linea">
+      <div class="pie__contacto">
+        <span>IES Tetuán de las Victorias — C/ Vía Límite, 14, 28029 Madrid.</span>
+        <span>Tel. 91 314 67 06 / 91 314 76 50 · ies.tetuan.madrid@educa.madrid.org</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
